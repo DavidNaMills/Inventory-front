@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopBar test suite matches snapshot 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "rgb(193, 224, 207)",
+      "borderBottom": "solid rgb(132, 184, 155) 3px",
+      "display": "flex",
+      "justifyContent": "space-between",
+      "padding": "10px",
+    }
+  }
+>
+  <div
+    className="locationChanger"
+  >
+    <span
+      className="locationChanger__bold"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+        />
+      </svg>
+       
+    </span>
+    <select
+      className="locationChanger__selectStyle"
+      onChange={[Function]}
+    >
+      <option
+        value="123"
+      >
+        home
+      </option>
+      <option
+        value="456123"
+      >
+        home2
+      </option>
+    </select>
+  </div>
+  <div>
+    <a
+      aria-current={null}
+      className="personalButton"
+      href="/personal"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root"
+        focusable="false"
+        role="presentation"
+        size={50}
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+`;

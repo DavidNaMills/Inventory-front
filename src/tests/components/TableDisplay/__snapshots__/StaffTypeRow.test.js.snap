@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StaffTypeRow matches snapshot 1`] = `
+<div
+  className="productTypeRow"
+>
+  <div
+    className="productTypeRow__title"
+  >
+    <div>
+      <h3
+        className="title_h3 "
+      >
+        Blue dogs
+      </h3>
+    </div>
+  </div>
+  <div
+    className="productTypeRow__cellCont"
+  >
+    <p>
+      <span>
+        Code
+        :
+      </span>
+      187wertt56
+    </p>
+    <p>
+      <span>
+        Qty
+        :
+      </span>
+      12345678
+    </p>
+  </div>
+</div>
+`;

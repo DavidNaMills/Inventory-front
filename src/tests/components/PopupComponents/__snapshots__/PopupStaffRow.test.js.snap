@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PopupStaffRow/> test suite matches snapshot 1`] = `
+<div
+  className="popup__color1"
+>
+  <div
+    className="popup__mediumSpacing"
+  >
+    <div>
+      <h4
+        className="title_h4 "
+      >
+        No staff at this location: 2 in total
+      </h4>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "maxHeight": "15vw",
+        "overflowY": "auto",
+      }
+    }
+  >
+    <div
+      className="popup__row_even"
+    >
+      <div
+        className="productTypeRow"
+      >
+        <div
+          className="productTypeRow__cellCont"
+        >
+          <p>
+            <span>
+              name
+              :
+            </span>
+            david
+          </p>
+          <p>
+            <span>
+              role
+              :
+            </span>
+            Sub-Admin
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="popup__row_odd"
+    >
+      <div
+        className="productTypeRow"
+      >
+        <div
+          className="productTypeRow__cellCont"
+        >
+          <p>
+            <span>
+              name
+              :
+            </span>
+            alan
+          </p>
+          <p>
+            <span>
+              role
+              :
+            </span>
+            Staff
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,33 @@
+.imageDisplay{
+    padding: '5px';
+    margin: '10px';
+    margin-bottom: '20px';
+
+    &__blur{
+        -webkit-box-shadow: 5px 6px 11px 6px rgba(74,74,74,0.76);
+        -moz-box-shadow: 5px 6px 11px 6px rgba(74,74,74,0.76);
+        box-shadow: 5px 6px 11px 6px rgba(74,74,74,0.76);
+    }
+
+    &__small{
+        width: auto;
+        max-width: 75px;
+    }
+
+    &__medium{
+        width: auto;
+        max-width: 250px;
+    }
+
+    &__large{
+        width: auto;
+        max-width: 300px;
+        height: auto
+    }
+
+    &__desktop {
+        width: auto;
+        max-width: 550px;
+        height: auto
+    }
+}

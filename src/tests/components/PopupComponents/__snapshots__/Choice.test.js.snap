@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Choice/> popup component test suite matches snapshot 1`] = `
+<div>
+  <p>
+    are you sure?
+  </p>
+  <button
+    onClick={[MockFunction]}
+  >
+    Accept
+  </button>
+  <button
+    onClick={[MockFunction]}
+  >
+    Cancel
+  </button>
+</div>
+`;

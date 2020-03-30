@@ -1,0 +1,40 @@
+@import '../../../styles/variables/colors.module.scss';
+
+.navItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+    color: $nav-color-inactive;
+    // border-bottom: solid $nav-border 3px;
+    
+    &:hover{
+        background-color: $nav-hover;
+        color: $light-text;
+    }
+
+    &__active{
+        background-color: $nav-active;
+        color: $title-color;
+    }
+}
+
+.mobileNavItem{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+    color: $nav-color-inactive;
+    
+    &:hover{
+        background-color: $nav-hover;
+        color: $light-text;
+    }
+
+    &__active{
+        background-color: $nav-active;
+        color: $title-color;
+    }
+}

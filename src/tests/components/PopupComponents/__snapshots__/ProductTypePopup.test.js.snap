@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductTypePopup /> component test suite happy route matches snapshot 1`] = `
+<div
+  className="popup"
+  style={
+    Object {
+      "maxWidth": "100%",
+    }
+  }
+>
+  <div>
+    <h2
+      className="title_h2 title__center"
+    >
+      dsadsdas
+    </h2>
+  </div>
+  <div
+    className="popup__color1"
+  >
+    <div
+      className="popup__mediumSpacing"
+    >
+      <div>
+        <h4
+          className="title_h4 "
+        >
+          Products: 2 in total
+        </h4>
+      </div>
+    </div>
+    <div
+      className="popup__scrollable"
+      style={
+        Object {
+          "maxHeight": "50vh",
+        }
+      }
+    >
+      <div
+        className="popup__row_even"
+      >
+        <div
+          className="productRow"
+        >
+          <img
+            alt="cups-undefined"
+            className="imageDisplay imageDisplay__medium"
+            src="noImage.jpg"
+          />
+          <div
+            className="productRow__infoCont"
+          >
+            <div
+              className="productRow__cellCont"
+            >
+              <p>
+                <span>
+                  name
+                  :
+                </span>
+                cups
+              </p>
+              <p>
+                <span>
+                  Qty
+                  :
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="popup__row_odd"
+      >
+        <div
+          className="productRow"
+        >
+          <img
+            alt="plates-undefined"
+            className="imageDisplay imageDisplay__medium"
+            src="noImage.jpg"
+          />
+          <div
+            className="productRow__infoCont"
+          >
+            <div
+              className="productRow__cellCont"
+            >
+              <p>
+                <span>
+                  name
+                  :
+                </span>
+                plates
+              </p>
+              <p>
+                <span>
+                  Qty
+                  :
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="button button__base button_full"
+    disabled={false}
+    onClick={[MockFunction]}
+    style={Object {}}
+  >
+    <p>
+      Close
+    </p>
+  </button>
+</div>
+`;

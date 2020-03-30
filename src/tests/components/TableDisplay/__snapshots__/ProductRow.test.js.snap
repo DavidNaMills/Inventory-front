@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductRow/> test suite matches snapshot 1`] = `
+<div
+  className="productRow"
+>
+  <img
+    alt="Blue dogs-abc123"
+    className="imageDisplay imageDisplay__medium"
+    src="/productImages/test.jpg"
+  />
+  <div
+    className="productRow__infoCont"
+  >
+    <div>
+      <h4
+        className="title_h4 "
+      >
+        Blue dogs
+      </h4>
+    </div>
+    <div
+      className="productRow__cellCont"
+    >
+      <p>
+        <span>
+          Locations
+          :
+        </span>
+        Dundee
+      </p>
+      <p>
+        <span>
+          :
+        </span>
+        12345678
+      </p>
+    </div>
+  </div>
+</div>
+`;

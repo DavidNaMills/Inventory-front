@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageDisplay/> test suite matches snapshot 1`] = `
+<img
+  alt="fill murray"
+  className="imageDisplay imageDisplay__medium"
+  src="https://www.fillmurray.com/200/300"
+/>
+`;

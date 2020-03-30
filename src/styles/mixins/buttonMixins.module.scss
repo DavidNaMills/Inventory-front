@@ -1,0 +1,28 @@
+@mixin buttonStyle($back, $color) {
+    background-color: $back;
+    color: $color
+}
+
+@mixin buttonShadow($shadow) {
+    -webkit-box-shadow: 5px 5px 10px -1px rgba($shadow, 0.7);
+    -moz-box-shadow: 5px 5px 10px -1px rgba($shadow, 0.7);
+    box-shadow: 5px 5px 10px -1px rgba($shadow, 0.7);
+}
+
+@mixin buildBorder($color){
+    border: solid $color 2px;
+}
+
+@mixin buildSkeleton($back, $color){
+    background-color: rgb(250, 250, 250);
+    color: $color;
+    border: solid $back 2px;
+}
+
+@mixin onHover($back, $color, $shadow) {
+    background-color: $back;
+    color: $color;
+    -webkit-box-shadow: 5px 5px 10px -1px rgba($shadow, 0.7);
+    -moz-box-shadow: 5px 5px 10px -1px rgba($shadow, 0.7);
+    box-shadow: 5px 5px 10px -1px rgba($shadow, 0.7);
+}

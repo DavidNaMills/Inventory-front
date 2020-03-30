@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button test suite behavioural tests matches snapshot 1`] = `
+<button
+  className="button button__base"
+  disabled={false}
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <p>
+    test
+  </p>
+</button>
+`;

@@ -1,0 +1,16 @@
+@import '../../styles/variables/colors.module.scss';
+@import '../../styles/mixins/messageDisplayMixin.module.scss';
+
+.messagingDisplay{
+    &__errStyle {
+        @include messageDisplay($message-error-back, $light-text);
+    }
+    &__succStyle{
+        @include messageDisplay($submit-shadow, $light-text);        
+    }
+    
+    &_p{
+        font-size: 22px;
+        padding-left: 10px;
+    }
+}

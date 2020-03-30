@@ -1,0 +1,34 @@
+@import '../../../styles/variables/colors.module.scss';
+@import '../../../styles/variables/sizing.module.scss';
+
+.formFactory{
+    display: flex;
+    flex-direction: column;
+
+    &__errorMsg{
+        background-color: $errorRed-light;
+        color: $errorRed-font;
+        padding: $small-padding;
+        width: 80%;
+    }
+
+    &__label{
+        padding-top: $medium-padding;
+    }
+
+}
+
+.input{
+    margin-top: $superSmall-padding;
+    padding: $small-padding;
+    width: 80%;
+    border-radius: 3px;
+}
+
+.select{
+    margin-top: $superSmall-padding;
+    padding: $small-padding;
+    width: 80%;
+    border-radius: 3px;
+}
+

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Popup/> container test suite matches snapshot 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "rgba(232, 255, 253, 0.6)",
+      "display": "flex",
+      "height": "100%",
+      "justifyContent": "center",
+      "left": "0px",
+      "position": "absolute",
+      "top": "789px",
+      "width": "100%",
+      "zIndex": "9999",
+    }
+  }
+>
+  <div>
+    <p>
+      I am child in time
+    </p>
+  </div>
+</div>
+`;

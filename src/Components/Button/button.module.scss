@@ -1,0 +1,107 @@
+@import '../../styles/mixins/buttonMixins.module.scss';
+@import '../../styles/variables/colors.module.scss';
+
+.button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+
+    p{
+        padding-top: 5px;
+        padding-right: 10px;
+    }
+
+    &__disabled{
+        background-color: $disabled-back;
+        color: $disabled-color;
+    }
+
+    &__base{
+        @include buttonStyle($base-back, $base-color);
+        &:hover{
+            @include onHover($base-shadow, $light-text, $base-back);
+        }
+
+        &_shadow{@include buttonShadow($base-shadow);}
+        &_border{@include buildBorder($base-color);}
+        &_skeleton{@include buildSkeleton($base-back, $base-color); }
+    };
+    
+    &__submit{
+        @include buttonStyle($submit-back, $submit-color);
+        &:hover{
+            @include onHover($submit-shadow, $light-text, $submit-back);
+        }
+
+        &_shadow{ @include buttonShadow($submit-shadow); }
+        &_border{ @include buildBorder($submit-color); }
+        &_skeleton{@include buildSkeleton($submit-back, $submit-color); }
+    }
+    
+    &__clear{
+        @include buttonStyle($clear-back, $clear-color);
+        &:hover{
+            @include onHover($clear-shadow, $clear-color, $clear-back);
+        }
+
+        &_shadow{ @include buttonShadow($clear-shadow); }
+        &_border{ @include buildBorder($clear-color); }
+        &_skeleton{@include buildSkeleton($clear-back, $clear-color); }
+    }
+    
+    &__danger{
+        @include buttonStyle($danger-back, $danger-color);
+        &:hover{
+            @include onHover($danger-shadow, $light-text, $danger-back);
+        }
+        &_shadow{ @include buttonShadow($danger-shadow); }
+        &_border{ @include buildBorder($danger-color); }
+        &_skeleton{@include buildSkeleton($danger-back, $danger-color); }
+    }
+    
+    &__information{
+        @include buttonStyle($information-back, $information-color);
+        &:hover{
+            @include onHover($information-shadow, $light-text, $information-back);
+        }
+        &_shadow{ @include buttonShadow($information-shadow); }
+        &_border{ @include buildBorder($information-color); }
+        &_skeleton{@include buildSkeleton($information-back, $information-color); }
+    }
+
+    &_flat{
+        border: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+    }
+
+    &_full{
+        width: 100%;
+    }
+
+    &_bold{
+        font-weight: bold;
+    }
+
+    &_noStyle{
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+
+        &:hover{
+            background-color: rgb(212, 212, 212);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 5px;
+            padding-right: 10px;
+            border-radius: 100px;
+        }
+    }
+}

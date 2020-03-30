@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Inform/> popup component test suite matches snapshot 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "rgb(237, 237, 237)",
+      "height": "100%",
+      "padding": "50px",
+      "width": "300px",
+    }
+  }
+>
+  <p>
+    hello world
+  </p>
+  <button
+    onClick={[MockFunction]}
+  >
+    Close
+  </button>
+</div>
+`;

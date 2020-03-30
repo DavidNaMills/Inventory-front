@@ -1,0 +1,17 @@
+{
+    "testRegex": "((\\.|/*.)(test))\\.js?$",
+    "testCoverage":{
+      "collectCoverage": true,
+      "coverageReporters": [
+        "text",
+        "html"
+      ]
+    },
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.js"
+    ],
+    "snapshotSerializers": [
+      "<rootDir>/jest/setupAdapter.js",
+      "enzyme-to-json/serializer"
+    ]
+  }

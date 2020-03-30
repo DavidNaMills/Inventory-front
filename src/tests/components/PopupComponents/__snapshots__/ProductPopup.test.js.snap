@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductPopup/> component test suite default settings tests matches snapshot 1`] = `
+<div
+  className="popup"
+  style={
+    Object {
+      "backgroundColor": "rgb(237, 237, 237)",
+      "border": "solid black 2px",
+      "display": "flex",
+      "flexDirection": "column",
+      "minWidth": "70%",
+      "padding": "50px",
+    }
+  }
+>
+  <div
+    className="popup__mediumSpacing"
+  >
+    <div>
+      <h2
+        className="title_h2 title__center"
+      >
+        cups
+      </h2>
+    </div>
+  </div>
+  <div
+    className="popup__mediumSpacing"
+  >
+    <img
+      alt="cups-456dsa"
+      className="imageDisplay imageDisplay__desktop imageDisplay__blur"
+      src="/productImages/super url"
+    />
+  </div>
+  <div
+    className="popup__smallSpacing"
+  >
+    <label
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Type
+      :
+    </label>
+    <p>
+      yellow cups
+    </p>
+  </div>
+  <div
+    className="popup__smallSpacing"
+  >
+    <label
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Code
+      :
+    </label>
+    <p>
+      456dsa
+    </p>
+  </div>
+  <div
+    className="popup__smallSpacing"
+  >
+    <label
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Description
+      :
+    </label>
+    <p>
+      fdsa
+    </p>
+  </div>
+  <div
+    className="popup__smallSpacing"
+  >
+    <label
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Qty
+      :
+    </label>
+    <p>
+      789
+    </p>
+  </div>
+  <div
+    className="popup__smallSpacing"
+  >
+    <label
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Sell Price
+      :
+    </label>
+    <p>
+      45
+    </p>
+  </div>
+  <div
+    className="popup__smallSpacing"
+  >
+    <button
+      className="button button__base button_full"
+      disabled={false}
+      onClick={[MockFunction]}
+      style={Object {}}
+    >
+      <p>
+        Close
+      </p>
+    </button>
+  </div>
+</div>
+`;

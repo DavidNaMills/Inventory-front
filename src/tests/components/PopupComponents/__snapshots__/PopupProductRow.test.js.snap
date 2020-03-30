@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PopupProductRow/> component test suite matches snapshot 1`] = `
+<div
+  className="popup__color2"
+>
+  <div
+    className="popup__mediumSpacing"
+  >
+    <div>
+      <h4
+        className="title_h4 "
+      >
+        Products: 2 in total
+      </h4>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "maxHeight": "25vw",
+        "overflowY": "auto",
+      }
+    }
+  >
+    <div
+      className="popup__row_even"
+    >
+      <div
+        className="productRow"
+      >
+        <img
+          alt="cups-undefined"
+          className="imageDisplay imageDisplay__medium"
+          src="noImage.jpg"
+        />
+        <div
+          className="productRow__infoCont"
+        >
+          <div
+            className="productRow__cellCont"
+          >
+            <p>
+              <span>
+                name
+                :
+              </span>
+              cups
+            </p>
+            <p>
+              <span>
+                Qty
+                :
+              </span>
+              123
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="popup__row_odd"
+    >
+      <div
+        className="productRow"
+      >
+        <img
+          alt="bowls-undefined"
+          className="imageDisplay imageDisplay__medium"
+          src="noImage.jpg"
+        />
+        <div
+          className="productRow__infoCont"
+        >
+          <div
+            className="productRow__cellCont"
+          >
+            <p>
+              <span>
+                name
+                :
+              </span>
+              bowls
+            </p>
+            <p>
+              <span>
+                Qty
+                :
+              </span>
+              12223
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

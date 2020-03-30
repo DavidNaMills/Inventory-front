@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductManagementContainer/> test suite matches snapshot 1`] = `
+<div>
+  <div>
+    <h1
+      className="title_h1 title__center"
+    >
+      Product Management
+    </h1>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="blur__normal"
+    >
+      <div
+        className="form"
+      >
+        <div>
+          <h3
+            className="title_h3 "
+          >
+            Create new record
+          </h3>
+        </div>
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            className="form__buttonSpacing_large"
+          >
+            <button
+              className="button button__submit button_full"
+              disabled={false}
+              style={Object {}}
+              type="submit"
+            >
+              <p>
+                Submit
+              </p>
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M5 4v2h14V4H5zm0 10h4v6h6v-6h4l-7-7-7 7z"
+                />
+              </svg>
+            </button>
+          </div>
+        </form>
+        <div
+          className="form__buttonSpacing_medium"
+        >
+          <button
+            className="button button__clear button_full"
+            disabled={false}
+            onClick={[Function]}
+            style={Object {}}
+          >
+            <p>
+              Clear
+            </p>
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="tableSpacing"
+  >
+    <div />
+  </div>
+</div>
+`;

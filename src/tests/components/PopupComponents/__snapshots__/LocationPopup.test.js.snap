@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LocationPopup/> component test suite all options true matches snapshot 1`] = `
+<div
+  className="popup"
+  style={
+    Object {
+      "maxHeight": "90%",
+      "maxWidth": "100%",
+    }
+  }
+>
+  <div>
+    <h2
+      className="title_h2 title__center"
+    >
+      Home
+    </h2>
+  </div>
+  <p
+    className="popup__mediumSpacing"
+  >
+    this is a description
+  </p>
+  <div>
+    <p
+      className="popup__mediumSpacing"
+    >
+      No staff at this location
+    </p>
+    <p
+      className="popup__mediumSpacing"
+    >
+      No products of this type
+    </p>
+  </div>
+  <button
+    className="button button__base button_full"
+    disabled={false}
+    onClick={[MockFunction]}
+    style={Object {}}
+  >
+    <p>
+      Close
+    </p>
+  </button>
+</div>
+`;

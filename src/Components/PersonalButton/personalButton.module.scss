@@ -1,0 +1,21 @@
+@import '../../styles/variables/colors.module.scss';
+
+.personalButton{
+    display: flex;
+    align-items: baseline;
+    margin-right: 10px;
+    color: $nav-color-inactive;
+
+    &__active{
+        color: $title-color;
+        
+    }
+
+    &:hover{
+        color: $nav-hover;
+    }
+
+    span{
+        padding-right: 10px;
+    }
+}

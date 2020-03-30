@@ -1,0 +1,74 @@
+.popup{
+    background-color: rgb(237, 237, 237);
+    padding: 20px;
+    border: solid black 2px;
+    height: 80%;
+    min-width: 45vw;
+    max-width: 80vw;
+
+    &__image{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    &__smallSpacing{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    };
+
+    &__mediumSpacing{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    };
+
+    &__largeSpacing{
+        margin-bottom: 20px;
+    };
+
+    &__scrollable{
+        overflow-y: auto;
+        background-color: rgb(247, 247, 247);
+        // margin-bottom: 20px;
+    }
+    
+    &__color1{
+        background-color: rgb(188, 235, 226);
+        border: solid rgb(188, 235, 226) 3px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    
+    &__color2{
+        background-color: rgb(188, 224, 235);
+        border: solid rgb(188, 224, 235) 3px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    &__row{
+        &_odd{
+            background-color: rgb(222, 222, 222);
+            border-bottom: solid rgb(132, 164, 184) 2px;
+        }
+    
+        &_even{
+            background-color: rgb(247, 247, 247);
+            border-bottom: solid rgb(132, 164, 184) 2px;
+        }
+    }
+}
+
+.popup_container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-height: 50%;
+    background-color: rgba(232, 255, 253, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: -webkit-sticky; /* Safari */  
+    position: sticky;
+}

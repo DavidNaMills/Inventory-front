@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form test suite matches snapshot 1`] = `
+<div
+  className="blur__normal"
+>
+  <div
+    className="form"
+  >
+    <div>
+      <h3
+        className="title_h3 "
+      >
+        Create new record
+      </h3>
+    </div>
+    <form
+      onSubmit={[MockFunction]}
+    >
+      <div
+        className="form__buttonSpacing_large"
+      >
+        <button
+          className="button button__submit button_full"
+          disabled={false}
+          style={Object {}}
+          type="submit"
+        >
+          <p>
+            Submit
+          </p>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M5 4v2h14V4H5zm0 10h4v6h6v-6h4l-7-7-7 7z"
+            />
+          </svg>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

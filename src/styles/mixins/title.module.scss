@@ -1,0 +1,8 @@
+@mixin setTitle($size, $color){
+    width: 100%;
+    font-size: $size;
+    color: $color;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}

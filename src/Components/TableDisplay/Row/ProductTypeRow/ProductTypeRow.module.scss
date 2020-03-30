@@ -1,0 +1,43 @@
+.productTypeRow{
+        // width: 75%;
+        display: flex;
+        align-items: baseline;
+        // margin-left: 20px;
+        padding: 10px;
+        margin-bottom: 10px;
+
+    &__title{
+        margin-right: 50px;
+    }
+
+    &__cellCont{
+        display:flex;
+        padding-top: 20px;
+
+        p{
+            margin-right: 50px;
+        }
+
+        p:last-of-type {
+            margin-right: none;
+        }
+    }
+    
+    &__cellContPortrait{
+        display:flex;
+        flex-direction: column;
+        padding-top: 20px;
+
+        p{
+            margin-right: 50px;
+        }
+
+        p:last-of-type {
+            margin-right: none;
+        }
+    }
+    span{
+        font-weight: bold;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavigationContainer/> test suite with staff.token matches snapshot 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "rgb(193, 224, 207)",
+        "borderBottom": "solid rgb(132, 184, 155) 3px",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "padding": "10px",
+      }
+    }
+  >
+    <div
+      className="locationChanger"
+    >
+      <span
+        className="locationChanger__bold"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+          />
+        </svg>
+         
+      </span>
+      <select
+        className="locationChanger__selectStyle"
+        onChange={[Function]}
+      >
+        <option
+          value="123"
+        >
+          home
+        </option>
+        <option
+          value="456123"
+        >
+          home2
+        </option>
+      </select>
+    </div>
+    <div>
+      <a
+        aria-current={null}
+        className="personalButton"
+        href="/personal"
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          size={50}
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="navigation"
+  >
+    <a
+      aria-current={null}
+      className="navItem"
+      href="/dashboard"
+      onClick={[Function]}
+      style={
+        Object {
+          "width": 167.33333333333334,
+        }
+      }
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+        />
+      </svg>
+      Dashboard
+    </a>
+    <a
+      aria-current={null}
+      className="navItem"
+      href="/products"
+      onClick={[Function]}
+      style={
+        Object {
+          "width": 167.33333333333334,
+        }
+      }
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.11 0 2-.9 2-2V5c0-1.11-.89-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z"
+        />
+      </svg>
+      Products
+    </a>
+    <a
+      aria-current={null}
+      className="navItem"
+      href="/productTypes"
+      onClick={[Function]}
+      style={
+        Object {
+          "width": 167.33333333333334,
+        }
+      }
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"
+        />
+        <path
+          d="M17.5 10.5c.88 0 1.73.09 2.5.26V9.24c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99zM13 12.49v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26V11.9c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.3-4.5.83zM17.5 14.33c-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26v-1.52c-.79-.16-1.64-.24-2.5-.24z"
+        />
+      </svg>
+      Product Types
+    </a>
+    <a
+      aria-current={null}
+      className="navItem"
+      href="/locations"
+      onClick={[Function]}
+      style={
+        Object {
+          "width": 167.33333333333334,
+        }
+      }
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M15 11V5l-3-3-3 3v2H3v14h18V11h-6zm-8 8H5v-2h2v2zm0-4H5v-2h2v2zm0-4H5V9h2v2zm6 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V9h2v2zm0-4h-2V5h2v2zm6 12h-2v-2h2v2zm0-4h-2v-2h2v2z"
+        />
+      </svg>
+      Locations
+    </a>
+    <a
+      aria-current={null}
+      className="navItem"
+      href="/staff"
+      onClick={[Function]}
+      style={
+        Object {
+          "width": 167.33333333333334,
+        }
+      }
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+        />
+      </svg>
+      Staff
+    </a>
+    <a
+      aria-current={null}
+      className="navItem"
+      href="/test"
+      onClick={[Function]}
+      style={
+        Object {
+          "width": 167.33333333333334,
+        }
+      }
+    >
+      Staff
+    </a>
+  </div>
+  <div>
+    <p>
+      I Am Child
+    </p>
+  </div>
+</div>
+`;

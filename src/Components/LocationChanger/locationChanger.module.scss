@@ -1,0 +1,15 @@
+.locationChanger{
+    display: flex;
+    align-items: center;
+
+    &__selectStyle{
+        border-radius: 10px;
+        width: 200px;
+        padding: 3px;
+    }
+
+    &__bold{
+        font-weight: bold;
+        margin-right: 15px;
+    }
+}

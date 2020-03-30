@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BurgerMenu test auite with isShow set to false matches snapshot 1`] = `
+<button
+  className="hamburger hamburger--collapse"
+  onClick={[Function]}
+  style={Object {}}
+  type="button"
+>
+  <span
+    className="hamburger-box"
+  >
+    <span
+      className="hamburger-inner"
+    />
+  </span>
+</button>
+`;

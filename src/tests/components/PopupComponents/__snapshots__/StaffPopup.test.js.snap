@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StaffPopup/> component test suite matches snapshot 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "rgb(237, 237, 237)",
+      "border": "solid black 2px",
+      "minWidth": "80%",
+      "padding": "50px",
+    }
+  }
+>
+  <div>
+    <h2
+      className="title_h2 title__center"
+    >
+      david
+    </h2>
+  </div>
+  <div
+    className="popup__smallSpacing"
+  >
+    <label
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      role
+    </label>
+    <p>
+      Admin
+    </p>
+  </div>
+  <div
+    className="popup__smallSpacing"
+  >
+    <label
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      phone
+    </label>
+    <p />
+  </div>
+  <div
+    className="popup__mediumSpacing"
+  >
+    <label
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Wechat
+    </label>
+    <p />
+  </div>
+  <div
+    className="popup__mediumSpacing"
+    style={
+      Object {
+        "backgroundColor": "white",
+        "border": "solid black 1px",
+        "padding": "10px",
+      }
+    }
+  >
+    <label
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Locations
+    </label>
+    <p>
+      home
+    </p>
+    <p>
+      home2
+    </p>
+  </div>
+  <button
+    className="button button__base button_full"
+    disabled={false}
+    onClick={[MockFunction]}
+    style={Object {}}
+  >
+    <p>
+      Close
+    </p>
+  </button>
+</div>
+`;

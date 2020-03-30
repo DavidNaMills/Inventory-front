@@ -1,0 +1,53 @@
+.productRow{
+    display: flex;
+    align-items: center;
+    
+    &__infoCont{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+
+    }
+    
+    
+
+    &__cellCont{
+        width: 100%;
+        padding-top: 20px;
+        display: flex;
+
+        p{
+            margin-right: 50px;
+        }
+
+        p:last-of-type {
+            margin-right: none;
+        }
+
+    }
+
+    &__cellCont_stack{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+
+        p{
+            margin-right: 50px;
+        }
+
+        p:last-of-type {
+            margin-right: none;
+        }
+
+    }
+
+
+
+    span{
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    
+}

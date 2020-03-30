@@ -1,0 +1,37 @@
+@import '../../styles/variables/colors.module.scss';
+@import '../../styles/fonts/fontSizes.module.scss';
+@import '../../styles/mixins/title.module.scss';
+
+.title {
+    @include setTitle($h2, $title-color);
+    
+    &_h1{
+        @include setTitle($h1, $title-color);
+    };
+
+    &_h2{
+        @include setTitle($h2, $title-color);
+    };
+    
+    &_h3{
+        @include setTitle($h3, $title-color);
+    }
+
+    &_h4{
+        @include setTitle($h4, $title-color);
+    }
+
+    &_h5{
+        @include setTitle($h5, $title-color);
+    }
+
+    &_h6{
+        @include setTitle($h6, $title-color);
+    }
+
+    &__center{
+        text-align: center;
+    }
+
+
+}

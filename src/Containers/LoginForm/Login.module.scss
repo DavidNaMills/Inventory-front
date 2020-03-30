@@ -1,0 +1,39 @@
+.image_container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+
+    
+    @media (max-width: 1100px){
+        background: url('/images/logo-small.jpg') no-repeat center center fixed; 
+    }
+    @media (min-width: 1101px){
+        background: url('/images/logo.jpg') no-repeat center center fixed; 
+    }
+
+    width: 100%;
+    height: 100%;
+
+    backdrop-filter: grayscale(1);
+}
+
+.overlay{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9996;
+    height: 80%;
+    width: 100%;
+    filter: none;
+}
+
+.login{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

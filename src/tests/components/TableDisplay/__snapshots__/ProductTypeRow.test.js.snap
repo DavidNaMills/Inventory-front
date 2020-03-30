@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductTypeRow/> test suite matches snapshot 1`] = `
+<div
+  className="productTypeRow"
+>
+  <div
+    className="productTypeRow__title"
+  >
+    <div>
+      <h4
+        className="title_h4 "
+      >
+        Blue dogs
+      </h4>
+    </div>
+  </div>
+  <div
+    className="productTypeRow__cellCont"
+  >
+    <p>
+      <span>
+        Locations
+        :
+      </span>
+      Dundee
+    </p>
+  </div>
+</div>
+`;

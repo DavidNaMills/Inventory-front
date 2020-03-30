@@ -1,0 +1,14 @@
+@import '../variables/colors.module.scss';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.tableSpacing{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: solid $nav-border 3px;
+}

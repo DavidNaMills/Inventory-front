@@ -1,0 +1,93 @@
+@import '../../styles/variables/sizing.module.scss';
+@import '../../styles/variables/colors.module.scss';
+
+@mixin form {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    // background-color: rgba(242, 242, 242, 0.5);
+
+    margin-bottom: $largeSpacing;
+    margin-top: $mediumSpacing;
+    z-index: 1;
+}
+
+
+
+.form{
+    border-radius: 3px;
+    padding: 15px;
+    
+    
+    -webkit-box-shadow: $blur $shadow-blue;
+    -moz-box-shadow: $blur $shadow-blue;
+    box-shadow: $blur $shadow-blue;
+
+    &__buttonSpacing{
+        &_large{
+            margin-top: $mediumSpacing;
+        }
+        &_medium{
+            margin-top: $extraSmallSpacing;
+        }
+    }
+}
+
+.blur{
+    &__normal{
+        width: 40%;
+        @include form;
+    }
+    
+    &_mobile{
+        width: 80%;
+        @include form;
+    }
+}
+
+
+
+
+// @import '../../styles/variables/sizing.module.scss';
+// @import '../../styles/variables/colors.module.scss';
+
+// @mixin form {
+//     border-radius: 3px;
+//     padding: 15px;
+//     margin-bottom: $largeSpacing;
+//     margin-top: $mediumSpacing;
+    
+//     -webkit-box-shadow: $blur $shadow-blue;
+//     -moz-box-shadow: $blur $shadow-blue;
+//     box-shadow: $blur $shadow-blue;
+
+
+// }
+
+
+// .form{
+//     &__normal{
+//         width: 40%;
+//         @include form;
+//     }
+    
+//     &_mobile{
+//         width: 80%;
+//         @include form;
+//     }
+
+//     &__buttonSpacing{
+//         &_large{
+//             margin-top: $mediumSpacing;
+//         }
+//         &_medium{
+//             margin-top: $extraSmallSpacing;
+//         }
+//     }
+// }
+
+// .blur{
+//     // width:100%;
+//     -webkit-backdrop-filter: blur(10px);
+//     backdrop-filter: blur(5px);
+//     background-color: rgba(255, 255, 255, 0.5); 
+// }
